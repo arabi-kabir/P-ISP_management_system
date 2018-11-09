@@ -1,0 +1,52 @@
+
+#navbarNav li{
+    transition: background-color 0.9s, border-color 0.9s;
+}
+#navbarNav li:hover{
+    background-color: #28a745;
+}
+#logout-btn{
+    position: absolute;
+    right: 15px;
+}
+#dash-board{
+    background-color: #28a745;
+}
+
+#menuBtn{
+    margin: 20px;
+}
+
+#header{
+    text-align: center;   
+    background-color:#576574;
+    color: #ffffff;
+}
+#header h1{
+    padding: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#send-complain{
+    background-color: #dfdfdf;
+    padding: 24px;
+    margin-left: 16px;
+}
+
+#my-due-payment h2{
+    font-weight: 200;
+    text-align: center;
+}
+.thisbtn{
+    text-align: center;
+    font-weight: 200;
+}
+.table-header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300; 
+}
+#complain-p{
+    font-size: 22px;
+}

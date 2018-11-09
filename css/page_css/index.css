@@ -1,0 +1,202 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #fff;
+	color: #555;
+	font-family: 'lato', 'Arial', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility; 
+}
+body{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+/*------------------------------------*/
+/* HEADER */
+/*------------------------------------*/
+#section-header{
+    background-color: #273038;
+}
+.menu{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+.menu img{
+    float: left;
+}
+.main-menu{
+    float: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    padding-left: 35px;
+    
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-menu ul li a:hover{
+   color: #1abc9c;  
+}
+
+/* HEADER-IMAGE */
+.header-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../image/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 140px;
+}
+.head-text h1{
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    width: 1000px;
+    display: inline-block;
+    padding: 30px 10px;
+    transition: background-color 0.9s, border-color 0.9s;
+}
+.head-text h1:hover{
+    background-color: #3498db;
+    border-color: #3498db;
+    
+}
+.head-text h2{
+    font-size: 150%;
+    font-weight: 300;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: white;
+	color: black;
+	width: 680px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#porltalBtn{
+	text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+	padding: 10px;
+	background-color: teal;
+	margin-left: 10px;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.package-info{
+    padding-left: 74px;
+    padding-top: 31px;
+}
+#plan{
+    background-color: #e0e0e0;
+}
+#plan h1{
+    text-align: center;
+    padding: 40px;
+}
+.single-plan{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 6%;
+    box-shadow: 0 6px 6px #6f6e6e;
+}
+#row-1{
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+}
+.single-plan h3{
+    font-weight: 200;
+}
+
+#portalBtn{
+    padding-left: 0px;
+}
+#btn_a{
+    margin-left: 10px;
+}
+#about_us{
+    text-align: center;
+    background-color: #273038;
+    color: white;
+    padding: 30px;
+    
+}
+#about_us_data h1{
+    font-weight: 200;
+}
+.service-bottom h2{
+    font-size: 25px;
+}
+.service-bottom img{
+    height: 120px;
+}
+.service-top{
+    text-align: center;
+}
+.product1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product1 h2{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+#contact-us-data input{
+    margin-bottom: 20px;
+}
+#contact-us-data h1{
+    padding: 30px;
+}
+#contact-us h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+#contact-us p{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+#contact-us-data textarea{
+    height: 184px;
+}
+#contact-us{
+    background-color: #25373D;
+}
+#contact-us-data button{
+    margin-left: 517px;
+    margin-bottom: 50px;
+}
+#footer{
+    text-align: center;
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid #1d1d1d;
+}
+

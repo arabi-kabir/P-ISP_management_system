@@ -1,0 +1,68 @@
+
+#navbarNav li{
+    transition: background-color 0.9s, border-color 0.9s;
+}
+#navbarNav li:hover{
+    background-color: #28a745;
+}
+#logout-btn{
+    position: absolute;
+    right: 15px;
+}
+#Customer-complain{
+    background-color: #28a745;
+}
+
+#menuBtn{
+    margin: 20px;
+}
+#thispage{
+    background-color: #28a745;
+    color: white;
+}
+#mySidenav{
+    font-weight: 200;
+}
+
+
+.col-11 input{
+    margin-top: 30px;
+}
+#searchBtn{
+    padding: 0px;
+    margin-top: 30px;
+}
+.table-header{
+    text-align: center;
+    background-color: #C82647;
+    font-weight: 200;
+    font-size: 120%;
+}
+#viewBtn{
+    text-align: center;
+}
+#all-customer-list{
+    margin-bottom: 100px;
+}
+th,td{
+    min-width: 150px;
+}
+#customer-complain-list{
+    margin-top: 50px;
+}
+.thisbtn{
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+#search-type{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+}

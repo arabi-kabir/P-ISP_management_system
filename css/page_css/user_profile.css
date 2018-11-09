@@ -1,0 +1,61 @@
+
+#navbarNav li{
+    transition: background-color 0.9s, border-color 0.9s;
+}
+#navbarNav li:hover{
+    background-color: #28a745;
+}
+#logout-btn{
+    position: absolute;
+    right: 15px;
+}
+#dash-board{
+    background-color: #28a745;
+}
+
+#menuBtn{
+    margin: 20px;
+}
+
+#header{
+    text-align: center;   
+    background-color:#576574;
+    color: #ffffff;
+}
+#header h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#my-due-payment h2{
+    font-weight: 200;
+    text-align: center;
+    margin: 20px;
+}
+.due{
+    background-color: #ff4757;
+}
+.thisbtn{
+    text-align: center;
+    font-weight: 200;
+}
+.table-header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200; 
+}
+.info_row{
+    background-color: darkslategrey;
+    margin:  0 auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 500px;
+    
+}
+#data{
+    margin-bottom: 80px;
+}

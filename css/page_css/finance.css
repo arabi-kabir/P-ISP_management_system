@@ -1,0 +1,118 @@
+
+#finance-tab{
+    background-color: #28a745;
+}
+
+#navbarNav li{
+    transition: background-color 0.9s, border-color 0.9s;
+}
+#navbarNav li:hover{
+    background-color: #28a745;
+}
+#logout-btn{
+    position: absolute;
+    right: 15px;
+}
+
+#menuBtn{
+    margin: 20px;
+}
+
+.table-header{
+    text-align: center;
+    font-weight: 200;
+    background-color: #2C3A47;
+    color: #ffffff;
+}
+.thisbtn{
+    text-align: center;
+}
+#page-header{
+    text-align: center;
+    background-color: #576574;
+}
+#page-header h1{
+    font-weight: 200;
+    padding: 30px 0px;
+}
+#monthname{
+    text-align: center;
+}
+#monthname h2{
+    font-weight: 200;
+}
+#add_new_exp h2{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 30px; 
+}
+
+
+
+#newExpenseForm{
+    margin-top: 30px;
+}
+#newExpenseForm input{
+    height: 41px;
+}
+#chkBox {
+    padding-left: 14px;
+}
+#chkBox input{
+    height: 20px;
+}
+#chkBox label{
+    padding: 5px 15px 15px 0px;
+}
+#newExpenseForm select{
+    height: 41px;
+}
+#newExpenseForm label{
+    padding-top: 5px;
+}
+
+#forBorder{
+    border: 1px solid black;
+    padding-right: 27px;
+}
+
+/* -- Search bar */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+#searchBtn{
+    position: absolute;
+    right: 51px;
+}
+
+#searchBox{
+    margin-bottom: 20px;
+}
+
+#viewData{
+    padding: 0;
+}
+
+#viewSearchData{
+    padding-right: 0;
+    margin-top: 30px;
+}
+#viewExpense{
+    margin-bottom: 70px;
+}

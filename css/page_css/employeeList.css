@@ -1,0 +1,135 @@
+html { 
+    background-color: #dcdde1; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    background: none;
+}
+
+#navbarNav li{
+    transition: background-color 0.9s, border-color 0.9s;
+}
+#navbarNav li:hover{
+    background-color: #28a745;
+}
+#logout-btn{
+    position: absolute;
+    right: 15px;
+}
+#Manage-Customer{
+    background-color: #28a745;
+    
+}
+
+#menuBtn{
+    margin: 20px;
+}
+#thispage{
+    background-color: #28a745;
+    color: white;
+}
+#mySidenav{
+    font-weight: 200;
+}
+
+
+.col-11 input{
+    margin-top: 30px;
+}
+#searchBtn{
+    padding: 0px;
+    margin-top: 30px;
+}
+.table-header{
+    text-align: center;
+    background-color: #0a3d62;
+    font-weight: 200;
+    font-size: 110%;
+}
+#viewBtn{
+    text-align: center;
+}
+#all-customer-list{
+    margin-bottom: 100px;
+}
+th,td{
+    min-width: 150px;
+}
+.thisbtn{
+    text-align: center;
+}
+
+/* -------------------- NavBar CSS ---------------------- */
+
+ /* The side navigation menu */
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+/* Search Box */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
