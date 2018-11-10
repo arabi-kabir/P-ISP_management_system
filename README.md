@@ -3,13 +3,13 @@ This project is done for my web-technology (university course)
 
 Technology stack -
 
-#HTML
+*HTML
 
-#CSS
+*CSS
 
-#PHP
+*PHP
 
-#Javascript
+*Javascript
 
-#GoogleCharts
+*GoogleCharts
 
